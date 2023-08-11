@@ -4,4 +4,6 @@ def add(a, b):
 
 from add_0.py import add
 
-print(f"1 + 2 = {result}")
+int(input("Please enter a positive integer a\n"))
+int(input("Please enter a positive integer b\n"))
+print(f"a + b == {result}")
