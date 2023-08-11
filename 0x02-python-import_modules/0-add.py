@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-def add(a, b):
-    return a + b
+if __name__ == "__main__":
+    from add_0 import add
+    a = 1
+    b = 2
 
-from add_0.py import add
-
-int(input("Please enter a positive integer a\n"))
-int(input("Please enter a positive integer b\n"))
-print(f"a + b == {result}")
+    print("{:n} + {:n} = {:n}".format(a, b, add(a, b)))
