@@ -9,9 +9,8 @@ class Rectangle:
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):
-        """initialize the attributes
-        Args:
-            width(int) and height(int)"""
+        """Initialize the attributes
+        Args: width(int)and height(int)"""
 
         self.width = width
         self.height = height
@@ -19,12 +18,13 @@ class Rectangle:
 
     @property
     def width(self):
-        """getthe value of width"""
+        """get the value of width"""
+
         return self.__width
 
     @width.setter
     def width(self, value):
-        """Args: width(int) """
+        """Args: width(int)"""
 
         if isinstance(value, int) is False:
             raise TypeError("width must be an integer")
@@ -36,11 +36,12 @@ class Rectangle:
     @property
     def height(self):
         """get the value of height"""
+
         return self.__height
 
     @height.setter
     def height(self, value):
-        """ Args: width(int)"""
+        """Args: width(int) """
 
         if isinstance(value, int) is False:
             raise TypeError("height must be an integer")
@@ -55,14 +56,15 @@ class Rectangle:
         return (self.__height * self.__width)
 
     def perimeter(self):
-        """calculate perimeter of rectangle"""
+        """calculate the perimeter of rectangle"""
 
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
             return ((self.__height * 2) + (self.__width * 2))
-def __str__(self):
-        """return rectangle """
+
+    def __str__(self):
+        """return rectangle"""
 
         if self.__width == 0 or self.height == 0:
             return ""
@@ -73,12 +75,12 @@ def __str__(self):
             return rectangle[:-1]
 
     def __repr__(self):
-        """return string an instance"""
+        """return string representation of instance"""
 
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
 
     def __del__(self):
-        """Print the message when an instance of delete"""
+        """Print when an instance an delete"""
 
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
