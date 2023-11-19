@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""Lists all City objects from the database hbtn_0e_14_usa.
-Usage: ./14-model_city_fetch_by_state.py <mysql username> /
-                                         <mysql password> /
-                                         <database name>
+"""A Python file similar to model_state.py named 
+  model_city.py that contains the class definition 
+  of a City
+  My script has 3 arguments: <mysql username>
+                            <mysql password>
+                            <database name>
 """
 
 import sys
