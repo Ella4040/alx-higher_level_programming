@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Lists the State object with the name passed as argument
-from the database hbtn_0e_6_usa.
-Usage: ./10-model_state_my_get.py <mysql username> /
-                                  <mysql password> /
-                                  <database name>
-                                  <state name searched>
+"""A script that prints the State object with the name 
+  passed as argument from the database hbtn_0e_6_usa
+  My script has 4 arguments: <mysql username> 
+                            <mysql password> 
+                            <database name>
+                            <state name searched>
 """
 
 import sys
