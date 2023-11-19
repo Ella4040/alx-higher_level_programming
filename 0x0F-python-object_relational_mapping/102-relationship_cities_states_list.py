@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Lists all City objects from the database hbtn_0e_101_usa.
-Usage: ./102-relationship_cities_states_list.py <mysql username> /
-                                                <mysql password> /
-                                                <database name>
+"""A script that lists all City objects from the database 
+    hbtn_0e_101_usa
+    My script has 3 arguments : mysql username
+                                mysql password
+                                database name
 """
 
 import sys
