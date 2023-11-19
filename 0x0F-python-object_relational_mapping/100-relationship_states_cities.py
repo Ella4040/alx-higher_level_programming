@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Creates the State “California” with the City “San Francisco”
-from the database hbtn_0e_100_usa.
-Usage: ./100-relationship_states_cities.py <mysql username> /
-                                           <mysql password> /
-                                           <database name>
+"""Improve the files model_city.py and model_state.py
+  and save them as relationship_city.py and
+  relationship_state.py
+ My script has 3 arguments: mysql username
+                            mysql password
+                            database name
 """
 
 import sys
