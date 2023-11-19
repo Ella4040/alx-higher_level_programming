@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""Changes the name of the State object with id = 2 to
-New Mexico in the database hbtn_0e_6_usa.
-Usage: ./12-model_state_update_id_2.py <mysql username> /
-                                       <mysql password> /
-                                       <database name>
+"""A script that changes the name of a State object 
+   from the database hbtn_0e_6_usa
+   My script has 3 arguments: <mysql username> 
+                              <mysql password>
+                              <database name>
 """
-
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
