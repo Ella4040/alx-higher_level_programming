@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Lists all cities of the database hbtn_0e_4_usa, ordered by city id.
-Usage: ./4-cities_by_state.py <mysql username> \
-                              <mysql password> \
-                              <database name>
+"""A script that lists all cities of the database hbtn_0e_4_usa
+     ordered by city id.
+   My script has 3 arguments : mysql username
+                               mysql password
+                               database name
 """
 
 import sys
